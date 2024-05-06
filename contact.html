@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | AmrMoAdel</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="/Assets/CSS/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Assets/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Assets/img/favicon_io/favicon-16x16.png">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body class="contact-page">
+    <section class="hero">
+        <div class="main-width">
+        <!-- Header Section -->
+        <header class="contact-header">
+            <a href="./" >
+                <img src="/Assets/img/Archlogo.png" class="arch" alt="Logo of AmrMoAdel">
+                <!-- <img src="/Assets/img/LOGO.png" class="logo"> -->
+                <p class="logo-text">AmrMoAdel</p>
+            </a>
+            
+            <nav>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./about">About</a></li>
+                    <li class="blg"><a href="https://amrmoadel.hashnode.dev/">Blog</a></li>
+                    <li class="btn"><a href="./contact">Contact Me</a></li>
+                </ul>
+                </label>
+            </nav>
+        </header>
+        <div class="hidden-menu">
+            <ul class="nav-list">
+                <li><a href="./">Home</a></li>
+                <li><a href="./about">About</a></li>
+                <li ><a href="https://amrmoadel.hashnode.dev/">Blog</a></li>
+                <li class="btn"><a href="./contact">Contact Me</a></li>
+            </ul>
+        </div>
+            <div class="contact-container">
+                
+                <div class="c-form-container">
+                    <form class="contact-form" action="https://formspree.io/f/xpzgqnrn" method="post">
+                        <h1>Get in Touch</h1>
+                        <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="Enter Your Name" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="Enter Your Email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" placeholder="Enter Subject" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" placeholder="Enter Your Message" name="message" required></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+                <div class="profile-card" data-tilt>
+                    <img src="/Assets/img/About-img.png" alt ="profile-card">
+                    <h2>Amr Mohammed</h2>
+                    <p>Red Teamer wannabe</p>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/amrmoadel/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/AmrMoAdel1/" target="_blank"  title="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://github.com/AmrMoAdel" target="_blank" title="Github"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://twitter.com/AmrMoAdel" target="_blank" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://amrmoadel.hashnode.dev/" target="_blank" title="Hashnode"><i class="fa-brands fa-hashnode"></i></a>
+                    </div>
+                    <a href="#" class="msg-btn">Reach Me Out</a>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+        
+        
+            <!-- JavaScript -->
+            <script type="text/javascript" src="/Assets/JS/script.js"></script>
+
+            <!-- Focus on form-->
+            <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                document.querySelector('.msg-btn').addEventListener('click', function() {
+                    document.getElementById('name').focus();
+                });
+            });
+            </script>
+            
+            <!-- vanilla-tilt.js -->
+            <script src="/Assets/JS/vanilla-tilt.js"></script>
+            
+            <!-- particles.js -->
+        <div id="particles-js"></div>
+        <script src="/Assets/JS/Particles_JS/Contact_Page/particles.js"></script>
+        <script src="/Assets/JS/Particles_JS/Contact_Page/app.js"></script>
+
+
+</body>
+
+
+
+</html>
