@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://amrmoadel.github.io/</loc>
@@ -22,6 +20,5 @@
   <lastmod>2024-05-18T12:15:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 
 </urlset>
